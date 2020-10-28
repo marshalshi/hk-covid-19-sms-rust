@@ -1,0 +1,16 @@
+[package]
+name = "covid_sms"
+version = "0.1.0"
+authors = ["Marshal SHI <marshalshi@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = "0.10"
+serde = {version = "1.0", features=["derive"]}
+serde_json = "1.0"
+chrono = "0.4"
+tokio = { version ="0.2", features=["full"]}
+itertools = "0.9"
+twilio = "1.0"
